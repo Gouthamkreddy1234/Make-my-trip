@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/button"
+        android:onClick="print"
+        android:background="@drawable/onclickback"
+        android:layout_gravity="center_horizontal" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Switch"
+        android:id="@+id/switch1"
+        android:onClick="display"
+        android:layout_gravity="center_horizontal" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal" ></ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:weightSum="100">
+
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="20"
+            android:id="@+id/one"
+            android:src="@drawable/circle"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="20"
+            android:id="@+id/two"
+            android:src="@drawable/circle"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="20"
+            android:id="@+id/three"
+            android:src="@drawable/circle"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="20"
+            android:id="@+id/four"
+            android:src="@drawable/circle"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="20"
+            android:id="@+id/five"
+            android:src="@drawable/circle"/>
+
+
+
+
+
+
+    </LinearLayout>
+</LinearLayout>

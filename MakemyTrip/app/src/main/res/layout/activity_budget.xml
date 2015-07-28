@@ -1,0 +1,181 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.androidexample.makemytrip.TwoClasses.Budget"
+    android:orientation="vertical"
+    android:weightSum="100">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+        android:text="Please choose your Budget Range for possible suggestions:"
+        android:textStyle="bold"/>
+
+</LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="10"
+        android:weightSum="100">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="33.33"
+              >
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HIGH"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:id="@+id/radioButton" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="33.33"
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AVERAGE"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:id="@+id/radioButton2" />
+
+
+            </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="33.33"
+            >
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LOW"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:id="@+id/radioButton3" />
+
+
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="15"
+        android:weightSum="100">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="70"
+            android:weightSum="100">
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/edit"
+                android:padding="4dp"
+                android:background="@drawable/whi"
+                android:hint="Enter city name:"/>
+
+
+
+</LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="30"
+            android:weightSum="100">
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/butt"
+                android:layout_gravity="top"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/button2"
+                android:text="Search"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="70">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/my_recycler"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+            />
+
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/progressBar3"
+                android:layout_gravity="center" />
+
+
+
+
+
+        </FrameLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

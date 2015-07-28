@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="toolbar">#40C4FF</color>
+    <color name="white">#ffffff</color>
+
+    <color name="greenStart">#ff33dd44</color>
+    <color name="greenMid">#ff0A8815</color>
+    <color name="greenEnd">#ff1da130</color>
+    <color name="yellow">#FFEB3B</color>
+    <color name="violet">#673AB7</color>
+
+
+    <color name="bg_gradient_start">#31244e</color>
+    <color name="bg_gradient_end">#6b394c</color>
+
+</resources>

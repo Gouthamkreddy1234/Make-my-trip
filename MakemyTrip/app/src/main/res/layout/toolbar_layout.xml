@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/actionbar"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:background="#40C4FF"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="33.33"
+            android:padding="15dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_alarm"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:padding="15dp"
+            android:layout_height="match_parent"
+            android:layout_weight="33.33"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_clock"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_gravity="center"
+            android:padding="15dp"
+            android:layout_height="match_parent"
+            android:layout_weight="33.33"
+            android:src="@drawable/ic_timer"/>
+
+
+
+
+
+        </LinearLayout>
+    </android.support.v7.widget.Toolbar>
